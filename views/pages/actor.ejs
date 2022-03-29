@@ -1,0 +1,14 @@
+<%- include('../partials/header'); %>
+
+<main>
+    <h2><%=name %></h2>
+    <section>
+        <% data.forEach(item => { %>
+            <div class="actor-div">
+                <p><%= item.first_name %> <%= item.last_name %></p>
+            </div>
+      <%  }) %>
+    </section>
+</main>
+
+<%-include('../partials/footer'); %>

@@ -1,0 +1,58 @@
+npmpwd
+
+mkdir node-api-v2
+
+npm i express
+
+npm i mysql
+
+npm i node-fetch
+
+npm i nodemon
+
+nano .gitignore
+
+--cd desktop /2021lessons/node
+
+npm install
+
+//gitignore//
+node_modules/ 
+*-lock.json
+
+
+//Connecting to the database note-api v2//
+1.cd desktop
+2.cd 2021lesson 
+3.ls
+4.cd node
+5.ls 
+6.cd node-api-v....
+7.ls
+8. pwd
+7.npm start
+
+
+//Restarting connection to note-api v2//
+1.cd node-api-v2
+2.npm start
+
+
+//Making a intalling a new folder note-api vS//
+1.cd desktop
+2. ls
+3. cd node
+1.mkdir node-api-v...
+2. cd node-api-v...
+3.npm init -y
+4. touch .gitignore server.js
+5.npm i express 
+6.npm run debug
+
+
+//Package.json
+1. start: node server.js,
+2. debug: nodemon server.js
+3. npm i start
+4. npm i express
+5. npm i node-fetch

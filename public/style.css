@@ -1,0 +1,42 @@
+:root {
+    --bgColor: beige;
+    --prim: blue;
+    --sec: red;
+}
+
+*{ box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bgColor);
+}
+
+h1 {
+    color: var(--prim);
+    text-shadow: 2px 2px 2px var(--sec);
+}
+
+.header {
+    padding: 10px 0;
+    background: violet;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.header-item {
+    font-size: 22px;
+}
+
+.header-item a {
+    color: var(--prim);
+    text-decoration: none;
+}
+
+.header-item a:hover {
+    color: var(--sec);
+}

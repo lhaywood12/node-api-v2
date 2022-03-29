@@ -1,0 +1,20 @@
+<%- include('../partials/header'); %>
+<main>
+    <h2><%= name %></h2>
+
+    <section>
+        <% data.forEach(item => { %>
+            <div>
+                <p>Title: <a href="/film/<%= item.film_id %>">
+                <%= item.title %>               
+                </a>
+              </p>
+              <p>Rating: <%= item.rating %></p>
+              <p>Year: <%= item.release_year%></p>
+              <p>Description: <%= item.description %></p>
+          </div>
+
+        <% }) %>
+    </section>
+</main>
+<%- include('../partials/footer'); %>
